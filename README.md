@@ -18,7 +18,7 @@ It requires the following dependencies:
   Can be acquired on Debian-based Linux distributions via `apt`:
   `sudo apt-get install libcrypto++-dev`
 
-All depedencies can be quickly acquired on Ubuntu using
+All dependencies can be quickly acquired on Ubuntu using
 sudo apt-get install libboost1.67-all-dev libntl-dev libcrypto++-dev`
 
 ### Whitebox cryptography implementations
@@ -35,9 +35,6 @@ folder to automatically create a program that implements a WBC cipher
 The implementation is written in C++.
 The build system is CMake. It is recommended to do out-of-source
 builds with CMake.
-I also provide a python script, `build.py`
-that facilitates the building process.
-It requires the following dependencies:
 
 The actual program can then be accessed via a command line interface.
 The following options are available:
@@ -59,13 +56,10 @@ The following options are available:
 * `--decrypt` Use table to decrypt
 * `--input-file ARG` input file to use, default stdin
 * `--output-file ARG` output file to use, default stdout
-* `--encrypt-state ARG` encrypt/decrypt hex state on commandline
+* `--encrypt-state ARG` encrypt/decrypt hex AES state on commandline using whitebox table
 
 
 It supports encryption and decryption with ECB, CBC and CTR modes.
-A test which compares outputs with OpenSSL is also available. It is
-written in Python and requires the `pycryptodome` package, available
-on Pip: `pip3 install pycryptodome`.
 
 ## License
 
