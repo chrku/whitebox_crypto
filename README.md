@@ -57,6 +57,9 @@ The following options are available:
 * `--input-file ARG` input file to use, default stdin
 * `--output-file ARG` output file to use, default stdout
 * `--encrypt-state ARG` encrypt/decrypt hex AES state on commandline using whitebox table
+* `--create-external-encoding` arg Create external encodings in given file
+* `--apply-input-encoding` arg Apply input encoding to white box
+* `--apply-output-encoding` arg Apply output encoding to white box
 
 
 It supports encryption and decryption with ECB, CBC and CTR modes.
