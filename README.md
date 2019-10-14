@@ -19,7 +19,7 @@ It requires the following dependencies:
   `sudo apt-get install libcrypto++-dev`
 
 All dependencies can be quickly acquired on Ubuntu using
-sudo apt-get install libboost1.67-all-dev libntl-dev libcrypto++-dev`
+`sudo apt-get install libboost1.67-all-dev libntl-dev libcrypto++-dev`
 
 ### Whitebox cryptography implementations
 
