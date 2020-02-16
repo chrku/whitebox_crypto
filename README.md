@@ -66,4 +66,4 @@ It supports encryption and decryption with ECB, CBC and CTR modes.
 
 ## License
 
-Because NTL is GPLv2 licensed, I had to license the project code as GPL as well.
+This project uses the ISC license
